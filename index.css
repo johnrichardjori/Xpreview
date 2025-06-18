@@ -1,0 +1,86 @@
+body {
+  background-color: #0d192d;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: fit-content;
+  width: 300px;
+  background-color: #162640;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card .card__img {
+  height: 50%;
+  width: 100%;
+}
+
+.card__images {
+  position: relative;
+}
+
+.card__images-layer {
+  position: absolute;
+  width: 41px;
+  height: 55px;
+  left: 127px;
+  top: 119px;
+  background: url("./assests/icon-view.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; /* or cover */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card__images:hover .card__images-layer {
+  opacity: 1;
+}
+
+.card__creator {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.card__creator img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card__images-layer {
+  display: block;
+}
+
+.card__time img {
+  height: 30px;
+  width: 20px;
+}
+
+h2 {
+  color: #fff;
+}
+
+.card__time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 10px;
+}
+
+.outer-box {
+  display: block;
+  align-items: center;
+}
