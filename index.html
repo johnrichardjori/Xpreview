@@ -60,67 +60,61 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./index1.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Equilibrium NFT Preview</title>
   </head>
   <body>
-    <div class="main" data-cy="outer-box">
-      <div class="card" data-cy="preview-card">
-        <div class="card__images" data-cy="card-images">
-          <img
-            src="../assests/image-equilibrium.jpg"
-            alt="image"
-            class="card__img"
-          />
-          <div class="card__images-layer"></div>
+    <main class="card">
+      <div class="card__images">
+        <img
+          src="./assests/image-equilibrium.jpg"
+          alt="image"
+          class="card__img"
+        />
+      </div>
+
+      <!-- Title -->
+      <h1 class="card__title">Equilibrium #3429</h1>
+
+      <!-- Info text with correct spelling and content -->
+      <p id="info" style="color: grey">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+
+      <!-- Time section -->
+      <div class="card__time">
+        <div class="inner-text">
+          <img src="./assests/icon-ethereum.svg" alt="eth" />
+          <span class="card__time-left">0.041 ETH</span>
         </div>
-        <h1 class="card__title" data-cy="card-title">Equilibrium #3429</h1>
-        <p id="info" data-cy="card-info" style="color: grey">
-          Our Equilibrium collection promotes balance and calm.
-        </p>
-
-        <div class="card__time" data-cy="card-time">
-          <div class="inner-text">
-            <img src="./assests/icon-ethereum.svg" alt="eth" />
-            <span class="card__time-left" data-cy="time-left">0.041 ETH</span>
-          </div>
-
-          <div class="inner-text">
-            <img src="./assests/icon-clock.svg" alt="img" />
-            <span class="card__time-right" data-cy="time-right"
-              >3 days left</span
-            >
-          </div>
-        </div>
-
-        <hr />
-
-        <div class="card__creator" data-cy="card-creator">
-          <img src="./assests/20220218_094314.jpg" alt="photo" />
-          <p>
-            Creation of
-            <a href="https://github.com/johnrichardjori" target="_blank"
-              >John Richard</a
-            >
-          </p>
+        <div class="inner-text">
+          <img src="./assests/icon-clock.svg" alt="time" />
+          <span class="card__time-right">3 days left</span>
         </div>
       </div>
 
-      <footer data-cy="footer" style="color: #fff">
-        Challenge by
-        <a href="https://www.crio.do" target="_blank" data-cy="footer-crio"
-          >Crio</a
-        >
-        Coded by
-        <a
-          href="https://github.com/johnrichardjori"
-          target="_blank"
-          data-cy="footer-author"
+      <hr />
+
+      <!-- Creator info -->
+      <div class="card__creator">
+        <img src="./assests/20220218_094314.jpg" alt="creator" />
+        <p>
+          Creation of
+          <a href="https://github.com/johnrichardjori" target="_blank"
+            >John Richard</a
+          >
+        </p>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <a href="https://www.crio.do" target="_blank">Crio</a>
+        <a href="https://github.com/johnrichardjori" target="_blank"
           >John Richard</a
         >
       </footer>
-    </div>
+    </main>
   </body>
 </html>

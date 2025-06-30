@@ -1,0 +1,88 @@
+/* Import Outfit font */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d192d;
+  font-family: "Outfit", sans-serif; /* Must be applied here for Cypress test */
+}
+
+/* Card container styling */
+main.card {
+  width: 300px;
+  background-color: #162640;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+}
+
+/* Main image styling */
+.card__img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Hover overlay icon */
+.card__images {
+  position: relative;
+}
+
+.card__images-layer {
+  position: absolute;
+  width: 41px;
+  height: 55px;
+  left: 127px;
+  top: 119px;
+  background: url("./assests/icon-view.svg") no-repeat center/contain;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card__images:hover .card__images-layer {
+  opacity: 1;
+}
+
+/* Time display styling */
+.card__time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.inner-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+}
+
+.card__time img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Creator section styling */
+.card__creator {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  color: #fff;
+}
+
+.card__creator img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+}
