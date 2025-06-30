@@ -1,4 +1,4 @@
-/* body {
+body {
   background-color: #0d192d;
   display: flex;
   height: 100vh;
@@ -6,7 +6,7 @@
   align-items: center;
   font-family: Outfit, sans-serif;
 }
-main .card {
+.main .card {
   height: fit-content;
   width: 300px;
   background-color: #162640;
@@ -32,7 +32,7 @@ main .card {
   background: url("./assests/icon-view.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;  or cover 
+  background-size: contain;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -81,12 +81,12 @@ h2 {
   gap: 10px;
 }
 
-.outer-box {
+.main {
   display: block;
   align-items: center;
-} */
+}
 
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 body {
   background-color: #0d192d;
@@ -166,4 +166,4 @@ body {
 footer {
   margin-top: 20px;
   font-size: 14px;
-}
+} */
