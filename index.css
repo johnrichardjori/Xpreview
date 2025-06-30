@@ -98,7 +98,7 @@ body {
   margin: 0;
 }
 
-main .card {
+.main .card {
   width: 300px;
   background-color: #162640;
   border-radius: 10px;
