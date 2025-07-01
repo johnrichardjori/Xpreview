@@ -33,6 +33,9 @@ main.card {
 
 .card__images:hover::after {
   opacity: 1;
+  background-image: url("./assests/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card__img {
